@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# UCab - Cab Booking App 🚖
 
-## Project info
+UCab is a full-stack cab booking web application built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
+The application allows users to easily book rides, view nearby cabs, estimate fares, and track their bookings through a simple and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
+- User Registration and Login
+- Secure Authentication using JWT
+- Book Cab with Pickup and Drop Location
+- Search Nearby Available Cabs
+- Fare Estimation System
+- Real-time Ride Tracking
+- Booking History
+- Online Payment Option
+- Responsive and Modern UI
+- Role-based system (User, Driver, Admin)
 
-## How can I edit this code?
+## Tech Stack
 
-There are several ways of editing your application.
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-**Use Lovable**
+### Backend
+- Node.js
+- Express.js
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Database
+- MongoDB
+- Mongoose
 
-Changes made via Lovable will be committed automatically to this repo.
+### Security
+- JWT Authentication
+- bcrypt password encryption
 
-**Use your preferred IDE**
+Preview Image
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+<img width="1918" height="1059" alt="Screenshot 2026-03-09 202006" src="https://github.com/user-attachments/assets/c5584d28-59a0-4851-9c13-8e338c794e30" />
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+<img width="1919" height="970" alt="Screenshot 2026-03-09 201935" src="https://github.com/user-attachments/assets/4f7f00b5-8a01-4c40-9b6e-eeb560ad56b2" />
+<img width="1524" height="694" alt="Screenshot 2026-03-09 205146" src="https://github.com/user-attachments/assets/5d398064-0b0e-46ff-b9fb-983b5121ce78" />
+<img width="1917" height="985" alt="Screenshot 2026-03-09 202229" src="https://github.com/user-attachments/assets/319f0a73-90a1-452e-a6f5-ebd1411a9112" />
+<img width="1891" height="751" alt="Screenshot 2026-03-09 202309" src="https://github.com/user-attachments/assets/fb2cf100-5480-487f-bc52-8b062595c795" />
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
